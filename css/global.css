@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    font-family: 'Fira Sans', Arial,sans-serif;
+    color: #141414;
+    padding: 0px;
+    background-color: #F0F0F0;
+    /* background-color: red; */
+}
+
+h1,h2,h3,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+.subtitulo{
+    font-size: 8rem;
+    line-height: 1.5;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 5ch;
+
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
