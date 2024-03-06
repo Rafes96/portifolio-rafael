@@ -76,3 +76,58 @@
     align-content: center;
 }
 
+/* responsivo */
+@media(max-width:1158px){
+    .empresa-item:nth-child(odd)::after{
+        display: none;
+    }
+}
+@media(max-width:1079px){
+    #experiencias .subtitulo{
+        font-size: 6rem;
+    }
+    .empresa-item{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:1010px){
+    #experiencias .subtitulo{
+        font-size: 5rem;
+        max-width: none;
+        text-align: center;
+    }
+    .intro-xp{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:1010px){
+    .empresa-ano{
+        left: 20px;
+        top: -24px;
+        
+    }
+}
+
+@media(max-width:700px){
+    .empresa-item{
+        grid-template-columns: 1fr;
+        
+    }
+}
+@media(max-width:584px){
+    #experiencias .subtitulo{
+        font-size: 3rem;
+    }
+    .empresa-tech{
+        max-width: 300px;
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width:552px) {
+    .empresa-tech{
+        display: none;
+    }
+}
