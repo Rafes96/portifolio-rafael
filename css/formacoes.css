@@ -10,7 +10,7 @@
     width: 130px;
     height: 100px;
     bottom: -50px;
-    left: 50%;
+    left: 20%;
     background: url('../img/decoracao.svg') no-repeat center;
 
 }
@@ -25,6 +25,7 @@
 }
 .subtitulo-formacao{
     max-width: 4ch;
+    
 }
 
 .formacoes-item{
