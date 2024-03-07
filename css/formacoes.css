@@ -1,5 +1,18 @@
 .formacoes{
     background-color: #212020;
+    position: relative;
+}
+
+.formacoes::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 100px;
+    bottom: -50px;
+    left: 50%;
+    background: url('../img/decoracao.svg') no-repeat center;
+
 }
 
 .formacoes-container{
@@ -46,7 +59,6 @@
      left: -6px;
     top: 20px;
 }
-
 
 .falcudade-titulo{
     font-size: 1rem;
