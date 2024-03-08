@@ -90,7 +90,6 @@
         margin-bottom: 40px;
     }
 }
-
 @media(max-width:1010px){
     #experiencias .subtitulo{
         font-size: 5rem;
@@ -101,7 +100,6 @@
         grid-template-columns: 1fr;
     }
 }
-
 @media(max-width:1010px){
     .empresa-ano{
         left: 20px;
