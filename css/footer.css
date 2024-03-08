@@ -28,3 +28,22 @@
     color: #8f8f8f;
     grid-column: 1 /-1;
 }
+
+@media(max-width:536px){
+    .footer-contatos h3{
+        font-size: 0.85rem;
+    }
+    .footer-contatos li{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:500px){
+    .footer-container{
+        grid-template-columns: 1fr;
+        
+    }
+    .footer-copy{
+        place-self: center;
+    }
+}
